@@ -1,1 +1,3 @@
 # Efficient-Data-Deletion-in-ML
+
+We validated the work stated in the paper ”Making AI Forget You: Data Deletion in Machine Learning” (by Antonio A. Ginart, Melody Y. Guan, Gregory Valiant, and James Zou) by reproducing their results. We found that our results roughly aligned the trends of their results but with some minor ﬂuctuations. We further explored their proposed models by ﬁne tuning their hyperparameters. The effects of number of iterations and tree depth on the performance of corresponding proposed models were investigated. We further optimized DC-K-means model and proposed a new competitive weighted DC-K-means model,whichhasbetterstatisticalperformanceonsome datasets at a minor cost of runtime efﬁciency.
